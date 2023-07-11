@@ -1,9 +1,16 @@
 <!doctype html>
-<html>
+<html class="overflow-x-hidden">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="OMSU 2013 10TH ANNIVERSARY HOMECOMING">
+    <meta name="description"
+        content="Everything you need to know about the OMSU2013 program; registration, bus, acommodation, swag,etc">
+
+    <meta property="og:image"
+        content="https://res.cloudinary.com/derrickvibe/image/upload/v1689076121/OMSU_HC_OG_image_gfofz7.png">
+    <meta property="twitter:card" content="summary_large_image">
     <link href="./index.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
@@ -26,7 +33,9 @@
             <!-- Header/Navigation -->
             <div class="flex items-center justify-between p-5 md:p-8">
                 <div class="flex items-center">
-                    <img src="/src/img/omsu13logo.png" alt="Logo" class="h-24 md:h-24">
+                    <a href="index.html">
+                        <img src="/src/img/omsu13logo.png" alt="Logo" class="h-24 md:h-24">
+                    </a>
                 </div>
                 <div>
                     <a href="https://docs.google.com/forms/d/e/1FAIpQLSdBK3zzaLQ3BjBs8whF07cQ8Cc7yUul0IDSo68B2M5pq3hryA/viewform"
@@ -50,11 +59,11 @@
         </div>
     </section>
     <!-- Logos of partners -->
-    <section class="partners py-16 bg-gray2">
+    <section class="partners py-16 bg-gray2 mx-0">
         <div>
-            <h3 class="text-center text-2xl md:text-3xl text-black">SUPPORTING PARTNERS</h3>
+            <h3 class="text-center mb-3 text-2xl md:text-3xl text-black">SUPPORTING PARTNERS</h3>
         </div>
-        <div class="swiper-container">
+        <div class="swiper-container text-center">
             <!-- swiper wrapper -->
             <div class="swiper-wrapper">
                 <!-- Slides -->
@@ -99,7 +108,8 @@
                     <p class="mb-4 text-center text-paragraph lg:text-left">Find a list of accommodations; hotels, guest
                         house and hostels to book for the homecoming.</p>
                     <div class="text-center md:text-left">
-                        <a href="/src/accomodation.html" class="font-bold underline font-anton text-omsulitgreen hover:text-omsugreen">FIND
+                        <a href="/src/accomodation.html"
+                            class="font-bold underline font-anton text-omsulitgreen hover:text-omsugreen">FIND
                             ACCOMODATION
                         </a>
 
@@ -164,16 +174,17 @@
                 <i class="fab fa-twitter fa-2x"></i>
             </a>
             <a href="https://www.instagram.com/omsu__2013/" class="text-omsuyellow hover:text-omsulitgreen"">
-                <i class="fab fa-instagram fa-2x"></i>
+                <i class=" fab fa-instagram fa-2x"></i>
             </a>
 
-            </div>
+        </div>
         </div>
 
 
         <!-- Footer Note -->
         <div class="text-center text-sm">
-            <p>&copy; 2023 OMSU 2013. All rights reserved. <span>Designed & Developed with love❤️ <a class="text-omsuyellow "href="https://derrickamenuve.com">Derrick Amenuve</a></span></p>
+            <p>&copy; 2023 OMSU 2013. All rights reserved. <span>Designed & Developed with love❤️ <a
+                        class="text-omsuyellow " href="https://derrickamenuve.com">Derrick Amenuve</a></span></p>
         </div>
     </footer>
 
@@ -182,28 +193,28 @@
 </body>
 <script>
     var swiper = new Swiper('.swiper-container', {
-    slidesPerView: 1,
-    spaceBetween: 30,
-    loop: true,
-    autoplay: {
-        delay: 2500,
-        disableOnInteraction: false,
-    },
-    breakpoints: {
-        640: {
-            slidesPerView: 2,
-            spaceBetween: 20,
+        slidesPerView: 3,
+        spaceBetween: 30,
+        loop: true,
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
         },
-        768: {
-            slidesPerView: 4,
-            spaceBetween: 40,
+        breakpoints: {
+            640: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+            },
+            768: {
+                slidesPerView: 4,
+                spaceBetween: 40,
+            },
+            1024: {
+                slidesPerView: 5,
+                spaceBetween: 50,
+            },
         },
-        1024: {
-            slidesPerView: 5,
-            spaceBetween: 50,
-        },
-    },
-});
+    });
 </script>
 
 </html>
