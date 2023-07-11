@@ -286,18 +286,6 @@ h1, h2, h3 {
   margin-top: 2rem;
 }
 
-.mb-16 {
-  margin-bottom: 4rem;
-}
-
-.mb-12 {
-  margin-bottom: 3rem;
-}
-
-.mr-2 {
-  margin-right: .5rem;
-}
-
 .block {
   display: block;
 }
@@ -312,10 +300,6 @@ h1, h2, h3 {
 
 .h-24 {
   height: 6rem;
-}
-
-.h-6 {
-  height: 1.5rem;
 }
 
 .max-w-7xl {
@@ -336,12 +320,6 @@ h1, h2, h3 {
 
 .justify-between {
   justify-content: space-between;
-}
-
-.space-x-6 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(1.5rem * var(--tw-space-x-reverse));
-  margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .space-x-3 > :not([hidden]) ~ :not([hidden]) {
@@ -398,14 +376,6 @@ h1, h2, h3 {
   padding: 1.25rem;
 }
 
-.p-6 {
-  padding: 1.5rem;
-}
-
-.p-3 {
-  padding: .75rem;
-}
-
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -439,11 +409,6 @@ h1, h2, h3 {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
-}
-
-.px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
 }
 
 .text-center {
@@ -493,6 +458,11 @@ h1, h2, h3 {
   color: rgb(12 19 36 / var(--tw-text-opacity));
 }
 
+.text-gray {
+  --tw-text-opacity: 1;
+  color: rgb(177 177 177 / var(--tw-text-opacity));
+}
+
 .text-gray2 {
   --tw-text-opacity: 1;
   color: rgb(246 246 246 / var(--tw-text-opacity));
@@ -521,11 +491,6 @@ h1, h2, h3 {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-gray {
-  --tw-text-opacity: 1;
-  color: rgb(177 177 177 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -575,29 +540,9 @@ h1, h2, h3 {
   background-color: rgb(253 214 16 / var(--tw-bg-opacity));
 }
 
-.hover\:text-blue-500:hover {
-  --tw-text-opacity: 1;
-  color: rgb(59 130 246 / var(--tw-text-opacity));
-}
-
-.hover\:text-blue-700:hover {
-  --tw-text-opacity: 1;
-  color: rgb(29 78 216 / var(--tw-text-opacity));
-}
-
 .hover\:text-omsugreen:hover {
   --tw-text-opacity: 1;
   color: rgb(8 129 46 / var(--tw-text-opacity));
-}
-
-.hover\:text-pink-500:hover {
-  --tw-text-opacity: 1;
-  color: rgb(236 72 153 / var(--tw-text-opacity));
-}
-
-.hover\:text-white:hover {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .hover\:text-omsulitgreen:hover {
@@ -605,10 +550,9 @@ h1, h2, h3 {
   color: rgb(4 195 89 / var(--tw-text-opacity));
 }
 
-@media (width >= 640px) {
-  .sm\:h-9 {
-    height: 2.25rem;
-  }
+.hover\:text-white:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 @media (width >= 768px) {
